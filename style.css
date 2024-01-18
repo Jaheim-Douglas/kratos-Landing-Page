@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1B1B;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#logo {
+    width: 250px;
+    padding: 10px;
+}
+
+.omega {
+    width: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul a:hover {
+    color: red;
+    transition: 0.75s;
+    border-bottom: 3px #922929 solid;
+}
+
+.myVideo {
+    width: 100%;
+}
+
+#whole-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 85%;
+    left: 325px;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    width: 900px;
+    height: 50%;
+    border-radius: 10px;
+    gap: 50px;
+    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
+}
+
+#text-container {
+    color: white;
+}
+
+#new-kratos {
+    width: 450px;
+    border-radius: 10px;
+}
+
+#join-btn {
+    padding: 10px;
+    width: 30%;
+    height: 13%;
+    border-radius: 5px;
+    border: none;
+    background-color: #922929;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#join-btn:hover {
+    background-color: #660000;
+}
+
+.chara-pic {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+.chara-pic:hover {
+    width: 275px;
+}
+
+#pic-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#text-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#second-section {
+    padding: 25px;
+}
+
+#second-section h1 {
+    text-align: center;
+}
+
+#third-section {
+    background-color: #A9A9A9;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#third-section h1 {
+    font-weight: 400;
+}
+
+#call-to-action {
+    background-color: #660000;
+    width: 70%;
+    color: white;
+    position: absolute;
+    border-radius: 15px;
+    padding: 15px;
+    left: 250px;
+    top: 2000px;
+    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
+    opacity: 90%;
+
+}
+
+#button-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button-section button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: large;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+#sign-up-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sign-up-section button {
+    padding: 10px;
+    width: 15%;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sign-up-section button:hover {
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    padding: 15px;
+    background-color: #1B1B1B;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+}
